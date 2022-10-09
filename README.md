@@ -8,7 +8,7 @@ pip install rouge-score
 ```
 
 # Python code for computing bootstraping rouge scores:
-```
+```python
 from rouge_score.scoring import BootstrapAggregator
 from rouge_score import rouge_scorer
 
